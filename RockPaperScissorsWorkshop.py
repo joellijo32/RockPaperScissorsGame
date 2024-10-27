@@ -46,23 +46,23 @@ while True:
 
         #Condition Checking
     if users_choice == ((choice[computers_choice])[0]).lower() : 
-        print("User and Computer has Same Choice, Tie\n\n\n")
+        print("\nUser and Computer has Same Choice, Tie\n\n\n")
         
         continue
     if users_choice == "r" and computers_choice == 2 : 
-        print("User Wins !\n\n\n")
+        print("\nUser Wins !\n\n\n")
         user_points += 1
        
     elif users_choice == "p" and computers_choice == 0: 
-        print("User Wins !\n\n\n")
+        print("\nUser Wins !\n\n\n")
         user_points += 1
         
     elif users_choice == "s" and computers_choice == 1: 
-        print("User Wins !\n\n\n")
+        print("\nUser Wins !\n\n\n")
         user_points += 1
         
     else: 
-        print("Computer Wins !\n\n\n")
+        print("\nComputer Wins !\n\n\n")
         computer_points += 1
         
         

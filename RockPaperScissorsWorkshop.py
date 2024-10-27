@@ -22,8 +22,8 @@ while True:
         
         print("\nRESULTS: \n")
                                #Printing the Results of the Game
-        print("COMPUTER'S SCORE = " + str(computer_points))
-        print("USER'S SCORE = \n" + str(user_points))
+        print("COMPUTER'S SCORE = " + str(computer_points)+"\n")
+        print("USER'S SCORE = " + str(user_points) +"\n")
         
         print("The Winner is : ",end="")
         if computer_points > user_points : 
@@ -40,7 +40,7 @@ while True:
 
     computers_choice = randrange(0,3)    #Randomizing a choice for Computer
     
-    print("\nComputer's Choice : \n" + choice[computers_choice])
+    print("\nComputer's Choice :  " + choice[computers_choice])
     
 
 

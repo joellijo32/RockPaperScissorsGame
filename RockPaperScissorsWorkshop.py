@@ -4,8 +4,8 @@ print()
 print()
 print("\t\t\t\tRock . Paper . Scissors".upper())
 print()
-user_points = 0
-computer_points = 0
+user_points = 0    #Points Scored by the User
+computer_points = 0    #Points Scored by the Computer
 
 while True: 
     print()
@@ -17,12 +17,12 @@ while True:
 
     if not(users_choice == "r" or users_choice == "p" or users_choice == "s" or users_choice == "q"): 
         print("Invalid Input")
-        print()
+        print()    #The block is executed if the input is not the desired one
         continue
     elif users_choice == "q" : 
         print()
         print("RESULTS: ")
-        print("")
+        print("")                       #Printing the Results of the Game
         print("COMPUTER'S SCORE = " + str(computer_points))
         print("USER'S SCORE = " + str(user_points))
         print()
@@ -39,13 +39,13 @@ while True:
         break
 
 
-    computers_choice = randrange(0,3)
+    computers_choice = randrange(0,3)    #Randomizing a choice for Computer
     print()
     print("Computer's Choice : " + choice[computers_choice])
     print()
 
 
-
+        #Condition Checking
     if users_choice == ((choice[computers_choice])[0]).lower() : 
         print("User and Computer has Same Choice, Tie")
         print()

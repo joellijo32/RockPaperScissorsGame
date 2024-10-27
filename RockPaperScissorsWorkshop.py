@@ -28,7 +28,7 @@ while True:
         print("The Winner is : ",end="")
         if computer_points > user_points : 
             print("COMPUTER ...!")
-            print("Won by " + str(computer_points - user_points) +" point(s) .")
+            print("Won by " + str(computer_points - user_points) +" point(s) .\n")
         elif computer_points == user_points: 
             print("Equal Score, Tie. ")
             print("Nobody Wins ...!\n")
